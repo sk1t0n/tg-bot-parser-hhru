@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+
+[packages]
+aiogram = "*"
+aiohttp = "*"
+gunicorn = "*"
+beautifulsoup4 = "*"
+jinja2 = "*"
+pdfkit = "*"
+
+[requires]
+python_version = "3.8"
